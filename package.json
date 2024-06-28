@@ -1,0 +1,12 @@
+{
+  "name": "pages-1st-website",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "build": "nanoweb render"
+  },
+  "dependencies": {
+    "nanoweb": "^0.0.1"
+  }
+}
