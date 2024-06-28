@@ -1,10 +1,10 @@
 const { join } = require('node:path');
 
 const ROOT_DIR = join(__dirname, '.');
-// no need to set DATA_DIR . data, it is by default.
-// const DATA_DIR = join(ROOT_DIR, 'data');
-// no need to set DATA_DIR . static, it is by default.
-// const STATIC_DIR = join(ROOT_DIR, 'static');
+// required to define a default value for the proper return of the object, 
+// because runtime.get() is not available at this time.
+const DATA_DIR = join(ROOT_DIR, 'data');
+const STATIC_DIR = join(ROOT_DIR, 'static');
 
 // @todo load .env.vault for the production
 // require('dotenv').config();
