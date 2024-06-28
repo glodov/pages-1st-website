@@ -21,11 +21,8 @@ jobs:
     - name: Install dependencies
       run: npm install  # Using npm ci for a clean install
       
-    - name: Install dependencies
-      run: npm install nanoweb
-
     - name: Render the site
-      run: npx nanoweb render
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
