@@ -4,7 +4,7 @@
   "description": "Your project description",
   "main": "index.js",
   "scripts": {
-    "build": "nanoweb render"
+    "build": "npx nanoweb render"
   },
   "dependencies": {
     "nanoweb": "^0.0.15"
