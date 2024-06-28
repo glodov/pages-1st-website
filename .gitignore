@@ -1,0 +1,6 @@
+dist/
+logs/
+node_modules/
+static/css/nano/
+static/css/nw/
+static/js/nw/index.min.js

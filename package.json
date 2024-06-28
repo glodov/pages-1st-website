@@ -7,6 +7,6 @@
     "build": "nanoweb render"
   },
   "dependencies": {
-    "nanoweb": "^0.0.10"
+    "nanoweb": "^0.0.14"
   }
 }
